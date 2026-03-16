@@ -50,8 +50,8 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_li6t2"]
-radius = 40.0
-height = 92.0
+radius = 47.0
+height = 94.0
 
 [node name="Player" type="CharacterBody2D" unique_id=995696200 node_paths=PackedStringArray("animation")]
 script = ExtResource("1_tfhl7")
@@ -60,10 +60,6 @@ move_speed = 320.0
 jump_force = 500.0
 friction = 80.0
 acceleration = 10.0
-gravity_mult = 1.0
-speed_mult = 1.0
-jump_mult = 1.0
-coyote_time = 0.2
 jump_buffer = 0.1
 
 [node name="Animation" type="AnimatedSprite2D" parent="." unique_id=42108993]
